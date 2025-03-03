@@ -5,8 +5,6 @@
 using namespace std;
 
 class employee{
-    
-    // here the  main idea is that with private all the data members of the base class becoime a  private ember so the child class hence to access the public methof o f the base class u have to aaccessit through the poublic method
 
     public:
     int id;
@@ -27,7 +25,7 @@ class employee{
 
 };
 
-class engineer : private employee{// engineer has access to all th epublic data men=mber ad methids
+class engineer : public employee{// engineer has access to all th epublic data men=mber ad methids
 
     public:
 
@@ -40,8 +38,6 @@ class engineer : private employee{// engineer has access to all th epublic data 
 
     void get_2(void){
 
-        get_values();
-
         cout<<" skills: "<< skill<<endl;
     }
 
@@ -50,7 +46,7 @@ class engineer : private employee{// engineer has access to all th epublic data 
 int main(){
 
     engineer e1(1,50000," Ramesh", " Programming");
-    
+    e1.get_values();
     e1.get_2();
     return 0;
 }

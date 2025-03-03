@@ -1,0 +1,8 @@
+If not declared as any like private and public then its private.
+Inline function do basic tasks like addiyion andaccording to that they will return the values and u csnt use loop and all and u have us\to use inline keyword.
+Friend function cannot be called by an object because its a member method. 
+I have inherited in private mode i want to use some methods of base class in derived class. 
+
+Three questions 5+3+2  i hour 15 mins
+
+Write in A4 as well  
