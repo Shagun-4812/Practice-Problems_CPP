@@ -18,7 +18,7 @@ class Derived:public Base{
 void fun1(int a)
 {
     cout<<"Function of derived class with value of a"<<a<<endl;
-     
+}  
     
 };
 
