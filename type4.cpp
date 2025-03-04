@@ -11,6 +11,7 @@ class Base{
 };
 class Derived:public Base{
     public:
+    using Base :: fun1;
     void fun1()
 {
     cout<<"Function of derived class"<<endl;    
