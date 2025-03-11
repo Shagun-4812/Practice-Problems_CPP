@@ -19,11 +19,9 @@ int main() {
     ClassA objA;
     ClassB objB;
 
-    ClassB* bPtrStatic = static_cast<ClassB*>(&objA);
-    bPtrStatic->showB();
-
-    ClassB* bPtrReinterpret = reinterpret_cast<ClassB*>(&objA);
-    bPtrReinterpret->showB();
+    // Correct usage: Call the functions directly on the objects
+    objA.showA();
+    objB.showB();
 
     return 0;
 }
