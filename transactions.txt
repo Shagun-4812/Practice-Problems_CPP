@@ -1,0 +1,4 @@
+Income,food,2500,1742211115
+Income,food,253,1742211343
+Expense,rent,56,1742211352
+Income,entertainment,8585,1742211365
